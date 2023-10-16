@@ -10,12 +10,7 @@ class PageController extends Controller
     Return "Selamat Datang";
    } 
 
-   public function about(){
-    return "NIM: 2121770006 <br>
-            NAMA: MUHAMMAD NAAFIUL RAZZAQ WITJAKSONO";
-   }
+   
 
-   public function articles($id){
-    return "Halaman Artikel dengan ID $id";
-   }
+  
 }
