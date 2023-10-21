@@ -10,6 +10,15 @@ class PageController extends Controller
     Return "Selamat Datang";
    } 
 
+   public function user(){
+    $data = [
+        'nama' => 'Muhammad Naafiul Razzaq Witjaksono',
+        'alamat' => 'Sidoarjo',
+        'nohp' => '082257344'
+    ];
+    return view('User', $data);
+   }
+
    
 
   

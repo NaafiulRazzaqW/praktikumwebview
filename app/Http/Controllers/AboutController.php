@@ -7,7 +7,9 @@ use Illuminate\Http\Request;
 class AboutController extends Controller
 {
     public function about(){
-        return "NIM: 2121770006 <br>
-                NAMA: MUHAMMAD NAAFIUL RAZZAQ WITJAKSONO";
+        $judul = [
+            'title' => 'About',
+        ];
+        return view('about',$judul);
        }
 }
